@@ -44,7 +44,7 @@ cd PollWidget
 
 2. Open `index.html` or `widget.html` with live server / FTP server
 
-#### To run unit tests, follow this steps:
+#### To run unit tests, follow these steps:
 
 1. Install Jest
    ```bash
