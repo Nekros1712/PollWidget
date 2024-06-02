@@ -21,8 +21,15 @@ I also utilized localStorage for storing the poll results locally on the user's 
 - Using localStorage for storing poll results simplifies the implementation but may not be suitable for high-traffic websites with a large number of users voting simultaneously. In such cases, server-side storage and authentication would be necessary.
 
 ## Improvements
-- Implement server-side storage and authentication for storing poll results securely and preventing multiple votes from the same user.
-- Improve the design with more visually appealing styles, animations, and responsive layouts.
+- **Storage and Authentication**: Implement server-side storage and authentication for storing poll results securely and preventing multiple votes from the same user.
+- **UI Design**:Improve the design with more visually appealing styles, animations, and responsive layouts.
+- **Logging**: Implement logging to track important events and errors within the poll widget. Logging can provide valuable insights into the behavior of the widget, helping developers troubleshoot issues and monitor performance in real-time.
+   - Log user interactions, such as when a user submits a vote or navigates through the poll options.
+   - Log errors and exceptions to identify potential issues and diagnose problems quickly.
+   - Use logging levels (e.g., INFO, WARN, ERROR) to categorize and prioritize log messages based on severity.
+- **Error Handling**: Implement robust error handling to gracefully handle unexpected situations and provide informative error messages to users.
+- **Customization Options**: Provide users with the ability to customize the appearance and behavior of the poll widget. Offer options for changing colors, fonts, animations, and other visual aspects.
+- **Responsive Design**: Ensure the poll widget is fully responsive and optimized for different devices and screen sizes. Test the widget on various devices to ensure a seamless user experience across platforms.
 
 ## Instructions for Launching and Testing
 
